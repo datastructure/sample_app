@@ -4,14 +4,16 @@ source 'http://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
 # Use sqlite3 as the database for Active Record
-#gem 'sqlite3'
+gem 'sqlite3'
 # Use SCSS for stylesheets
 #Adding bootstarp-saas for Bootstrap
 gem 'bootstrap-sass'
 gem 'activesupport', '4.1.8'
+gem 'bcrypt'
 gem 'rspec-rails'
 gem 'capybara'
-
+gem 'annotate'
+gem 'protected_attributes'
 group :development do
   gem 'guard-rspec', '~> 4.6', '>= 4.6.4'
 end
